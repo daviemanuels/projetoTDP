@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*************** GERAL ***************/
+
 body {
     background: url("imagens/fundo.jpg") no-repeat 
 }
@@ -17,6 +19,8 @@ a{
 a:hover{
     opacity: 0.7;
 }
+
+/*************** MENU ***************/
 
 .logo{
     font-size: 24px;
@@ -59,4 +63,11 @@ nav{
     height: 900px;
     width: 300px;
     background-color: aqua;
+}
+
+/*************** FOOTER ***************/
+
+p {
+    color: #fff;
+    text-align: center;
 }
