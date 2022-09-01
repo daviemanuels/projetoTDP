@@ -112,7 +112,8 @@ button {
     width: 100%;
     padding: 20px;
     height: 12vh;
-    transition: ease-in 1s;
+    transition: ease-out 1s;
+    z-index: 1;
 }
 
 #menu-scroll #input-principal {
@@ -165,6 +166,7 @@ button {
     width: 100%;
     background-color: aqua;
     text-align: center;
+    opacity: 50%;
 }
 
 /*************** FOOTER ***************/
