@@ -10,32 +10,64 @@ body {
     background: url("imagens/fundo.jpg") no-repeat 
 }
 
+
 a{
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
-}
-
-a:hover{
-    opacity: 0.7;
-}
-
-/*************** MENU ***************/
-
-.logo{
-    font-size: 24px;
     text-transform: uppercase;
-    letter-spacing: 4px;
 }
 
-nav{
+a:hover, button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+/*************** MENU PRINCIPAL ***************/
+
+.logo-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo-desc .logo-principal{
+    width: 60px;
+    height: 80px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.logo-desc img {
+    height: 30px;
+}
+
+.login-menu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+    margin-left: 300px;
+    
+}
+
+#menu{
     display: flex;
     justify-content: space-around;
-    gap: 750px;
+    flex-direction: column;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: #333333;
-    height: 8vh;
+    height: 22vh;
 }
 
 .nav-list{
@@ -44,25 +76,95 @@ nav{
     gap: 32px;
 }
 
-#menu {
+.nav-list li{
+    letter-spacing: 3px;
+}
+
+/*************** MENU SCROLL ***************/
+
+#menu-scroll {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.menu-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+} 
+
+#menu-scroll p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#menu-scroll.ativo {
+    background-color: #282828;
     position: fixed;
+    display: flex;
+    flex-direction: row;
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;
-    background-color: #333333;
+    padding: 20px;
+    height: 12vh;
+    transition: ease-in 1s;
 }
 
-.nav-list li{
+#menu-scroll #input-principal {
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 16px;
+    padding-left: 10px;
+}
+
+.logo img {
+    width: 55px;
+    height: 60px;
+}
+
+.my-account a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffa300;
+    font-weight: 600;
     letter-spacing: 3px;
+    font-style: italic;
+}
+
+.my-account img {
+    width: 25px;
+    height: 25px;
+}
+
+.logo-market img{
+    width: 35px;
+}
+
+.botao-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.botao-nav p {
+    display: inline;
+    flex-direction: row;
 }
 
 /*************** MAIN ***************/
 
 .teste {
     height: 900px;
-    width: 300px;
+    width: 100%;
     background-color: aqua;
+    text-align: center;
 }
 
 /*************** FOOTER ***************/
