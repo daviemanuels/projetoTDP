@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +12,13 @@
 body {
     background: url("imagens/fundo.jpg");
     background-size: cover;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
 }
 
 
 a{
     color: #fff;
+    font-weight: bold;
     text-decoration: none;
     transition: 0.3s;
     text-transform: uppercase;
@@ -67,9 +72,12 @@ button {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     height: 22vh;
+    background-color: #d4d4d436;
+    box-shadow: 0 0 1em #cccccca6;
+    
 }
+
 
 .nav-list{
     list-style: none;
@@ -89,6 +97,8 @@ button {
     align-items: center;
     justify-content: space-around;
     padding: 40px 0;
+    font-family: 'Lobster', cursive;
+
 }
 
 .menu-menu {
@@ -101,6 +111,9 @@ button {
 #menu-scroll p {
     font-size: 20px;
     margin-top: 5px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+
 }
 
 #menu-scroll.ativo {
@@ -113,8 +126,10 @@ button {
     width: 100%;
     padding: 20px;
     height: 12vh;
-    transition: ease-out 1s;
     z-index: 1;
+    font-family: 'Prompt', sans-serif;
+
+
 }
 
 #menu-scroll #input-principal {
@@ -137,7 +152,7 @@ button {
     color: #ffa300;
     font-weight: 600;
     letter-spacing: 3px;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .my-account img {
@@ -165,7 +180,6 @@ button {
 .teste {
     height: 900px;
     width: 100%;
-    background-color: aqua;
     text-align: center;
     opacity: 50%;
 }
