@@ -5,6 +5,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-background: #000;
+    --color-background-hover: #fff;
+    --color-primary: #fff;
+    --color-hover: #ffa200;
 }
 
 /*************** GERAL ***************/
@@ -35,7 +43,6 @@ button {
     color: #fff;
     font-size: 30px;
 }
-
 
 
 /*************** MENU PRINCIPAL ***************/
@@ -91,6 +98,35 @@ button {
 
 /*************** MENU SCROLL ***************/
 
+.menu-dropdown {
+    list-style-type: none;
+    background-color: var(--color-background);
+    position: absolute;
+}
+
+.menu-dropdown li {
+    display: inline;
+    position: relative;
+}
+
+.menu-dropdown li a{
+    color: var(--color-primary);
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu-dropdown li a:hover{
+    background-color: var(--color-hover);
+    padding: 10px;
+}
+
+.menu-dropdown {
+    display: none;
+    position: absolute;
+}
+
+/*************** MENU SCROLL ***************/
+
 #menu-scroll {
     display: none;
     flex-direction: row;
@@ -128,7 +164,8 @@ button {
     height: 12vh;
     z-index: 1;
     font-family: 'Prompt', sans-serif;
-
+    transition: all 1s;
+    scroll-behavior: smooth;
 
 }
 
