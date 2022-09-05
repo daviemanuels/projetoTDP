@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-bg: #ffa300;
+    --color-primary: #fff;
+    --color-hover-bg: #ffa300;
+}
+
 /*************** GERAL ***************/
 
 body {
@@ -87,9 +93,51 @@ button {
 
 .nav-list li{
     letter-spacing: 3px;
+    padding: 15px;
+    cursor: pointer;
 }
 
+
 /*************** MENU DROPDOWN ***************/
+
+.nav-list ul {
+    background-color: rgba(255, 255, 255, 0.395);
+    display: none;
+    margin-top: 16px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.nav-list ul li a {
+    color: #fff;
+}
+
+.nav-list ul li a:hover {
+    opacity: 1;
+}
+
+.nav-list ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav-list ul li:first-child {
+    border-top: 3px solid rgba(0, 0, 0, 0.701);
+}
+
+.nav-list ul li:hover {
+    background-color: var(--color-bg);
+}
+
+.nav-list ul li:hover a{
+    color: #fff;
+    
+}
+
+.nav-list li:hover ul {
+    display: block;
+}
 
 /*************** MENU SCROLL ***************/
 
@@ -100,7 +148,7 @@ button {
     justify-content: space-around;
     padding: 40px 0;
     font-family: 'Lobster', cursive;
-
+    z-index: -1;
 }
 
 .menu-menu {
