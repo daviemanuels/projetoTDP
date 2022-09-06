@@ -227,11 +227,8 @@ button {
 
 /*************** MAIN ***************/
 
-.teste {
-    height: 900px;
-    width: 100%;
-    text-align: center;
-    opacity: 50%;
+main {
+    width: 1347px;
 }
 
 /*************** FRAME 1 ***************/
