@@ -19,6 +19,19 @@ body {
     background: url("imagens/fundo.jpg");
     background-size: cover;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+header {
+    width: 1347px;
+    margin: auto;
+}
+
+footer {
+    width: 1347px;
+    margin: auto;
 }
 
 
@@ -229,17 +242,19 @@ button {
 
 main {
     width: 1347px;
+    margin: auto;
 }
 
 /*************** FRAME 1 ***************/
 
 .frame1{
-    max-width: 100%;
     display: flex;
-    margin: 50px 20px;
+    width: 97%;
     background-color: #d4d4d436 ;
     padding: 10px 10px;
     justify-content: space-around;
+    margin: auto;
+    gap: 12px;
     box-shadow: 0 0 1em #cccccca6;
 }
 
@@ -247,33 +262,37 @@ main {
     background-color: #d4d4d41a;
     padding: 10px;
     border-radius: 2px;
-    max-width: 231px;
+    width: 200px;
 }
 
 .produto1 a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    height: 100%;
+}
+
+.produto1 a p {
+    text-align: center;
 }
 
 .img-prod{
-    max-width: 185px;
+    width: 185px;
 }
+
 
 #preço{
     font-size: 30px;
     color: #ffa300;
     font-weight: bolder;
-    margin: 10px 0px 0px;
 }
 
 #btn-comprar{
-    font-size: 10px;
-    margin-top: 10px;
     background: #ffa300;
-    justify-content: center;
     text-align: center;
-    width: 200px;
+    width: 190px;
     height: 25px;
     font-size: 12px;
 }
