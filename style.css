@@ -273,11 +273,10 @@ main {
 
 .frame1{
     display: flex;
-    width: 97%;
     background-color: #d4d4d436 ;
-    padding: 10px 0px;
     justify-content: space-around;
-    margin: auto;
+    padding: 10px 0;
+    margin: 0 80px;
     box-shadow: 0 0 1em #cccccca6;
 }
 
@@ -336,7 +335,8 @@ main {
     font-size: 26px;
     cursor: pointer;    
     border: none;
-
+    border-radius: 10px;
+    margin: -13px 0;
 }
 
 .arrow-right{
@@ -357,6 +357,21 @@ main {
     border: #ffa300 1px solid;
 }
 
+.titulo{
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    font-style: italic;
+}
+
+.linha{
+    border-bottom: 5px solid #ffa300;
+    border-radius: 5px;
+    width: 40px;
+    margin: 0 auto;
+}
 /****************************** FOOTER **************************************/
 
 /*************** LIST-FOOTER ***************/
