@@ -71,6 +71,52 @@ main {
     padding: 10px 0;
 }
 
-main {
-    /* background-color: aqua; */
+/************* ATENDIMENTO *************/
+
+.titulo-atendimento {
+    text-align: center;
+    padding: 20px;
+}
+
+.texto-p a{
+    color: #ffa300;
+}
+
+.email {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.input-atendimento-dados {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.dados-atendimento {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.submit-atendimento {
+    width: 100%;
+    background-color: #ffa300;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.input-atendimento {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
 }
