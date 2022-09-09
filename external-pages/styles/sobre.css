@@ -53,10 +53,15 @@ main {
     line-height: 20px;
 }
 
-.sobre-texto h1 {
-    text-align: center;
+.titulo-sobre {
+    width: 900px;
+}
+
+.titulo-sobre h1 {
+    text-align: right;
     font-size: 30px;
     font-style: italic;
+    color: #fff;
 }
 
 .sobre-texto .sobre-p {
