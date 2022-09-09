@@ -16,13 +16,11 @@
 
 .banner img {
     width: 100%;
-    /* margin: 0 auto; */
 }
 
 .banner {
     width: 95%;
     margin: auto;
-    /* background-color: #ffa300; */
     margin-bottom: 30px;
 }
 
@@ -30,7 +28,7 @@
 
 body {
     background: url("imagens/fundo.jpg");
-    background-size: cover;
+    background-size: contain;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     display: flex;
     flex-direction: column;
