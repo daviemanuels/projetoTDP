@@ -38,12 +38,12 @@ body {
 }
 
 header {
-    width: 1347px;
+    width: 100%;
     margin: auto;
 }
 
 footer {
-    width: 1347px;
+    width: 100%;
     margin: auto;
 }
 
@@ -76,7 +76,9 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    margin: auto;
+    width: 90%;
+    background-color: aqua;
 }
 
 .logo-desc .logo-principal{
@@ -263,7 +265,7 @@ button {
 /*************** MAIN ***************/
 
 main {
-    width: 1347px;
+    width: 95%;
     margin: auto;
 }
 
