@@ -356,6 +356,7 @@ main {
 
 .current-item{
     border: #ffa300 1px solid;
+    transition: all .8s;
 }
 
 /****************************** FOOTER **************************************/
