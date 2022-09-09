@@ -336,7 +336,8 @@ main {
     font-size: 26px;
     cursor: pointer;    
     border: none;
-
+    padding: 0 10px;
+    border-radius: 8px;
 }
 
 .arrow-right{
