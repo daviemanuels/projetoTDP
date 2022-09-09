@@ -1,0 +1,65 @@
+main {
+    margin-top: 30px;
+}
+
+.sobre-geral {
+    width: 900px;
+    display: flex;
+    margin: auto;
+}
+
+.sobre-links {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+}
+
+.sobre-links a{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.sobre-links .ativo {
+    color: #ffa300;
+}
+
+.sobre-links a:hover {
+    color: #ffa300;
+    opacity: 1;
+}
+
+.sobre-texto{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 0 10px;
+    width: 70%;
+
+}
+
+.texto-p {
+    background-color: #1313137a;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #797878;
+}
+
+.texto-p p {
+    line-height: 20px;
+}
+
+.sobre-texto h1 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.sobre-texto .sobre-p {
+    border-top: 3px solid #ffa300;
+    padding: 10px 0;
+}

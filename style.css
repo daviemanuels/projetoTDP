@@ -14,6 +14,18 @@
     --color-hover-bg: #ffa300;
 }
 
+.banner img {
+    width: 100%;
+    /* margin: 0 auto; */
+}
+
+.banner {
+    width: 95%;
+    margin: auto;
+    /* background-color: #ffa300; */
+    margin-bottom: 30px;
+}
+
 /*************** GERAL ***************/
 
 body {
