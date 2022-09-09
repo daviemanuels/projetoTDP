@@ -78,14 +78,13 @@ button {
     justify-content: space-around;
     margin: auto;
     width: 90%;
-    background-color: aqua;
 }
 
 .logo-desc .logo-principal{
     width: 60px;
     height: 80px;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .logo-desc img {
@@ -269,6 +268,7 @@ main {
     margin: auto;
 }
 
+
 /*************** FRAME 1 ***************/
 
 .frame1{
@@ -286,7 +286,7 @@ main {
     background-color: #d4d4d41a;
     padding: 10px;
     border-radius: 2px;
-    width: 200px;
+    width: 16%;
 }
 
 .produto1 a{
