@@ -292,7 +292,7 @@ main {
     background-color: #d4d4d41a;
     padding: 10px;
     border-radius: 2px;
-    width: 16%;
+    width: 20%;
 }
 
 .produto1 a{
@@ -335,6 +335,7 @@ main {
     border: none;
     border-radius: 10px;
     margin: -13px 0;
+    padding: 10px;
 }
 
 .arrow-right{
