@@ -273,11 +273,20 @@ main {
     display: flex;
     width: 97%;
     background-color: #d4d4d436 ;
-    padding: 10px 10px;
+    padding: 10px 0px;
     justify-content: space-around;
     margin: auto;
-    gap: 12px;
     box-shadow: 0 0 1em #cccccca6;
+}
+
+.gallery-wrapper{
+    overflow-x: auto;
+}
+
+.gallery{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px
 }
 
 .produto1{
@@ -317,6 +326,33 @@ main {
     width: 190px;
     height: 25px;
     font-size: 12px;
+}
+
+.arrow-left,
+.arrow-right{
+    background: linear-gradient(to left, transparent 0%, #cccccca6 422%);
+    font-size: 26px;
+    cursor: pointer;    
+    border: none;
+
+}
+
+.arrow-right{
+    left: auto;
+    right: 0;
+    font-size: 26px;
+    background: linear-gradient(to right, transparent 0%, #cccccca6 422%);
+}
+
+
+
+.gallery-wrapper::-webkit-scrollbar
+{
+    display: none;
+}
+
+.current-item{
+    border: #ffa300 1px solid;
 }
 
 /****************************** FOOTER **************************************/
