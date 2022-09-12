@@ -259,6 +259,55 @@ button {
     flex-direction: row;
 }
 
+/*************** MENU LATERAL ***************/
+
+.menu-lateral {
+    width: 250px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+
+.menu-lateral a {
+    display: block;
+    padding: 20px 5px;
+    text-align: center;
+}
+
+.menu-lateral a:hover {
+    background-color: #ffa300;
+    opacity: 1;
+}
+
+.menu-lateral ul {
+    list-style-type: none;
+    top: 75px;
+    position: absolute;
+    width: 100%;
+    background-color: #282828;
+}
+
+.icon-menu-lateral {
+    color: #ffa300;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(350px);
+}
+
+label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
 /*************** MAIN ***************/
 
 main {
