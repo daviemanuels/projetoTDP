@@ -73,9 +73,12 @@ button {
 .logo-desc {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: auto;
+    justify-content: space-between;
     width: 90%;
+}
+
+.my-account-left {
+    width: 4%;
 }
 
 .logo-desc .logo-principal{
@@ -83,6 +86,11 @@ button {
     height: 80px;
     border-radius: 8px;
     margin-top: 5px;
+}
+
+.my-account {
+    display: flex;
+    gap: 10px;
 }
 
 .logo-desc img {
