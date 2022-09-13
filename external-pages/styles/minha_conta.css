@@ -66,7 +66,7 @@ main {
     align-items: center;
     width: 400px;
     height: 500px;
-    gap: 5px;
+    gap: 10px;
     margin-bottom: 10px;
 }
 
@@ -81,16 +81,24 @@ main {
     letter-spacing: 1px;
 }
 
+.main_mc .input_mc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 600;
+}
+
 .main_mc p{
     color: white;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: 700;
     opacity: 70%;
     letter-spacing: 2px;
 }
 
 .main_mc input{
-    width: 300px;
+    width: 265px;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -98,5 +106,24 @@ main {
 }
 
 .button_1{
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.button_1 button{
+    font-size: 12px;
+    width: 126px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.button_1 .criar_conta{
+    background-color: rgb(99, 99, 99);
+}
+
+.button_1 .entrar{
+    background-color: #FFA300;
 }
