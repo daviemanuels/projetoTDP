@@ -441,6 +441,7 @@ main {
 footer {
     width: 100%;
     background-color: #282828;
+    
 }
 
 .list-footer{
@@ -544,11 +545,13 @@ footer {
     gap: 10px;
 }
 
-/***************** FORMA-PAG ******************/
+/***************** copyright ******************/
 
 .copyright{
-    background-color: #282828;
     padding: 30px 0;
+    opacity: 1;
+    background: url("imagens/fundo.jpg");
+    background-size: cover;
 }
 
 .copyright p{
