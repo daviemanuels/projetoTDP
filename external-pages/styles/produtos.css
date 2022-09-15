@@ -5,7 +5,7 @@ body {
 
 main {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
 }
 
 .container{
@@ -27,7 +27,7 @@ main {
 .produto{
     display: flex;
     justify-content:center ;
-    width: 1000px;
+    width: 1200px;
 }
 
 .imagens_prod{
