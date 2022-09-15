@@ -3,34 +3,42 @@ body {
     background-size: cover;
 }
 
-.container{
-    margin: 0 180px;
-    color: rgb(255, 255, 255);
-    font-size: 70px;
+main {
+    width: 100%;
+    max-width: 1024px;
 }
 
-.container img{
-    width: 600px;
+.container{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
 }
 
 .produto{
     display: flex;
     justify-content:center ;
+    width: 1000px;
 }
 
 .imagens_prod{
     background: rgba(255, 255, 255, 0.103);
     padding: 0px 40px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .blocoValores{
-    max-width: 700px;
-
+    width: 100%;
     padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .descricao{
-    font-size: 44px;
+    font-size: 35px;
 }
 
 .comprar{
@@ -39,39 +47,42 @@ body {
 }
 
 .comprar img{
-width: 24px;
+width: 21px;
 justify-content:first baseline;
 }
 
 .comprar button{
     margin-left: 30px;
-    margin-top: 77px;
+    margin-top: 40px;
     height: 63px;
-    width: 230px;
+    width: 177px;
     background-color: orange;
     border-radius: 10px;
-    font-size: 26px;
+    font-size: 21px;
 }
 
 .preco_parc{
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .preco{
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .preco p{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .preco h2{
     font-weight: bolder;
-    font-size: 66px;    
+    font-size: 45px;    
     color: orange;
 }
 
 
+.frete{
+    font-size: 20px;
+}
