@@ -17,6 +17,13 @@ main {
     
 }
 
+.titulo{
+    font-size: 45px;
+    font-style: italic;
+    padding-bottom: 0;
+    border-bottom: 1px solid orange;
+}
+
 .produto{
     display: flex;
     justify-content:center ;
@@ -35,6 +42,7 @@ main {
     padding: 0px 50px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .descricao{
@@ -42,18 +50,16 @@ main {
 }
 
 .comprar{
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
+    align-items: center;
 }
 
 .comprar img{
 width: 21px;
-justify-content:first baseline;
 }
 
-.comprar button{
-    margin-left: 30px;
-    margin-top: 40px;
+button{
     height: 63px;
     width: 177px;
     background-color: orange;
@@ -62,13 +68,12 @@ justify-content:first baseline;
 }
 
 .preco_parc{
-    margin-top: 30px;
     font-size: 20px;
     font-weight: 500;
 }
 
 .preco{
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
 .preco p{
@@ -85,4 +90,26 @@ justify-content:first baseline;
 
 .frete{
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.frete button{
+    font-size: 13px;
+    height: 26px;
+    width: 90px;
+}
+
+.descricao_produto{
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.062);
+    color: white;
+    font-size: 20px;
+}
+
+.descricao_produto h2{
+    text-align: center;
+    border-bottom: 3px solid orange;
 }
