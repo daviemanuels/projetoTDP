@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../styles/pcs-gamer.css">
     <link rel="shortcut icon" href="./imagens/favicon.png" type="image/x-icon">
     <title>ChipShop</title>
 </head>
@@ -13,16 +14,16 @@
         <nav id="menu">
             <div class="logo-desc">
                 <div class="my-account-left"></div>
-                <img src="./imagens/logo.png" alt="" srcset="" class="logo-principal">
+                <img src="../../imagens/logo.png" alt="" srcset="" class="logo-principal">
                 <div class="my-account">
-                    <a href="./external-pages/minha_conta/minha_conta.html"><img src="./imagens/people.png" alt="" srcset=""></a>
-                    <a href="http://"><img src="./imagens/market.png" alt="" srcset=""></a>
+                    <a href="./external-pages/minha_conta/minha_conta.html"><img src="../../imagens/people.png" alt="" srcset=""></a>
+                    <a href="http://"><img src="../../imagens/market.png" alt="" srcset=""></a>
                 </div>
             </div>
             <ul class="nav-list">
-                <li><a href="/">Início</a></li>
+                <li><a href="../../index.html">Início</a></li>
                 <li><a href="./external-pages/sobre/sobre.html">A ChipShop</a></li>
-                <li><a href="./external-pages/compras/pcs-gamer.html">PC's Gamer</a>
+                <li><a href="#">PC's Gamer</a>
                     <ul>
                         <li><a href="">Linha High</a></li>
                         <li><a href="">Linha Ultra</a></li>
@@ -80,107 +81,46 @@
         </nav>
     </header>
     <main>
-        <div class="banner">
-            <img src="./imagens/banner.jfif" alt="" srcset="">
-        </div>
-        <div class="titulo">
-            <div class="linha"></div>
-            MAIS VENDIDOS
-            <div class="linha"></div>
-        </div>
-        <section class="frame1">
-            <button class="arrow-left control" aria-label="Previous Image">⇦</button>
-
-            <div class="gallery-wrapper">
-                
-                <div class="gallery">
-
-                    <div class="produto1 current-item">
-                        <a href="external-pages/produtos/produto1.html">
-                            <img class="img-prod" src="imagens/frame1/notebook-asus-amd-ryzen-5-3500u-8gb-ram-ssd-256gb-15-6-radeon-vega-8-windows-11-home-cinza-m515da-br1213w_1651244602_m.png" alt="">
-                            <p>Notebook Acer</p>
-                            <p>AMD Ryzen 5-3500U, 8GB RAM / SSD 256GB</p>
-                            <p id="preço"> R$ 2.899,99 </p>
-                            <button id="btn-comprar">COMPRAR</button>
-                        </a>
+        <h1>PC GAMER</h1>
+        <section class="geral">
+            <aside class="pesquisa-lateral">
+                <div class="categorias">
+                    <h2>- Categorias</h2>
+                    <h3>Pc Gamer</h3>
+                    <div class="pcs-gamer">
+                        <a href="">Linha Pc Gamer HIGH</a>
+                        <a href="">Linha Pc Gamer ULTRA</a>
+                        <a href="">Linha Pc Gamer EXTREME</a>
+                        <a href="">Linha Pc Gamer PREMIUM</a>
                     </div>
-                    <div class="produto1">
-                        <a href="#">
-                            <img class="img-prod" src="imagens/frame1/1.png" alt="">
-                            <div>PC Gamer</div>
-                            <div>AMD 3000g / 8GB RAM / SSD 240GB</div>
-                            <div id="preço" > R$ 1.869,26 </div>
-                            <button id="btn-comprar">COMPRAR</button>
-                        </a>
+                    <h3>Peças e Acessórios</h3>
+                    <h3>Pc Office</h3>
+                </div>
+                <div class="resolution">
+                    <h3>Resolução</h3>
+                    <a href="">Full HD (1920x1080)</a>
+                    <a href="">2.5k (2560x1440</a>
+                    <a href="">4k (3840x2160)</a>
+                </div>
+                <div class="faixa-preco">
+                    <h3>Faixa de preço</h3>
+                    <div class="valor-inicial">
+                        <p>De:</p>
+                        <input type="text" name="" id="">
                     </div>
-                    <div class="produto1">
-                        <a href="#">
-                            <img class="img-prod" src="imagens/frame1/2.png" alt="">
-                            <p>PC Gamer</p>
-                            <p>AMD Ryzen 5 / 5600G / 16GB</p>
-                            <p id="preço" > R$ 2.970,25 </p>
-                            <button id="btn-comprar">COMPRAR</button>
-                        </a>
-                    </div>
-                    <div class="produto1">
-                        <a href="#">
-                            <img class="img-prod" src="imagens/frame1/3.png" alt="">
-                            <p>PC Gamer</p>
-                            <p>Intel i5-10400F 16GB (GTX 1660 SUPER)</p>
-                            <p id="preço" > R$ 4.637,75 </p>
-                            <button id="btn-comprar">COMPRAR</button>
-                        </a>
-                    </div>
-                    <div class="produto1">
-                        <a href="#">
-                            <img class="img-prod" src="imagens/frame1/4.png" alt="">
-                            <p>PC Gamer</p>
-                            <p>Intel I5 / 2400 / Mem 8GB / SSD 240GB</p>
-                            <p id="preço" > R$ 1.332,90 </p>
-                            <button id="btn-comprar">COMPRAR</button>
-                        </a>
-                    </div>
-                    <div class="produto1">
-                        <a href="#">
-                            <img class="img-prod" src="imagens/frame1/5.png" alt="">
-                            <p>NOTEBOOK ACER</p>
-                            <p>INTEL CORE I5 8GB HD SSD 512GB</p>
-                            <p id="preço" > R$ 4.600,00 </p>
-                            <button id="btn-comprar">COMPRAR</button>
-                        </a>
-                    </div>
-                    <div class="produto1">
-                        <a href="#">
-                            <img class="img-prod" src="imagens/frame1/6.png" alt="">
-                            <p>PC GAMER SKILL</p>
-                            <p>AMD Athlon 3000G / 8GB DDR4 / HD 1TB</p>
-                            <p id="preço" > R$ 1.900,00 </p>
-                            <button id="btn-comprar">COMPRAR</button>
-                        </a>
-                    </div>
-                    <div class="produto1">
-                        <a href="#">
-                            <img class="img-prod" src="imagens/frame1/7.png" alt="">
-                            <p>PC GAMER SKUL</p>
-                            <p>I3-10100F, Radeon RX 550 / 8GB DDR4 / SSD 240GB</p>
-                            <p id="preço" > R$ 2.999,99 </p>
-                            <button id="btn-comprar">COMPRAR</button>
-                        </a>
-                    </div>
-                    <div class="produto1">
-                        <a href="#">
-                            <img class="img-prod" src="imagens/frame1/5.png" alt="">
-                            <p>NOTEBOOK ACER</p>
-                            <p>INTEL CORE I5 8GB HD SSD 512GB</p>
-                            <p id="preço" > R$ 4.600,00 </p>
-                            <button id="btn-comprar">COMPRAR</button>
-                        </a>
+                    <div class="valor-final">
+                        <p>Até:</p>
+                        <input type="text" name="" id="">
                     </div>
                 </div>
-            </div>
-            <button class="arrow-right control" aria-label="Next Image">⇨</button>
-        </section>
+                <div class="filtro">
+                    <button>Filtrar</button>
+                </div>
+            </aside>
+            <section class="conteudo-pcs">
 
+            </section>
+        </section>
     </main>
     <footer>
         <div class="list-footer">
@@ -216,12 +156,12 @@
         </div>
         <div class="footer-novid">
             <div class="barra-novid">
-                <img class="logo" src="imagens/logo-footer.png" alt="">
+                <img class="logo" src="../../imagens/logo-footer.png" alt="">
                 <div class="imagens-barra-novid">
-                    <img class="img" src="imagens/icon-youtube.png" alt="">
-                    <img class="img" src="imagens/icon-face.png" alt="">
-                    <img class="img" src="imagens/icon-twitter.png" alt="">
-                    <img class="img" src="imagens/icon-insta.png" alt="">
+                    <img class="img" src="../../imagens/icon-youtube.png" alt="">
+                    <img class="img" src="../../imagens/icon-face.png" alt="">
+                    <img class="img" src="../../imagens/icon-twitter.png" alt="">
+                    <img class="img" src="../../imagens/icon-insta.png" alt="">
                 </div>
                 <div class="cadastro-novid">
                     <p>RECEBA NOVIDADES E PROMOÇÕES</p>
