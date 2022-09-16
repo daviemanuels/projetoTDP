@@ -34,7 +34,7 @@ aside {
     width: 280px;
 }
 
-a:hover {
+main a:hover {
     color: #ffa300;
     opacity: 1;
 }
