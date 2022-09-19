@@ -1,4 +1,8 @@
 const menu = document.querySelector('#menu-scroll');
+const controls = document.querySelectorAll('.control');
+const produto1 = document.querySelectorAll('.produto1');
+
+// Menu scroll
 
 function activeScroll() {
     menu.classList.toggle('ativo', scrollY > 165);
@@ -6,12 +10,9 @@ function activeScroll() {
 
 window.addEventListener('scroll', activeScroll)
 
-const controls = document.querySelectorAll('.control');
+// Slide 'mais vendidos'
 
 let currentItem = 0;
-
-const produto1 = document.querySelectorAll('.produto1');
-
 const maxItems = produto1.length;
 
 controls.forEach(control => {
