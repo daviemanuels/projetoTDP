@@ -59,7 +59,7 @@ main {
 width: 21px;
 }
 
-button{
+.comprar button, .frete button{
     height: 63px;
     width: 177px;
     background-color: orange;
@@ -109,10 +109,15 @@ button{
     font-size: 20px;
     display: flex;
     flex-direction: column;
+    padding: 10px 20px;
     gap: 25px;
 }
 
 .descricao_produto h2{
     text-align: center;
     border-bottom: 3px solid orange;
+}
+
+.descricao_produto .dp_p{
+    margin-bottom: 20px;
 }
