@@ -39,6 +39,7 @@ body {
 header {
     width: 100%;
     margin: auto;
+    max-height: 140px;
     background-color: #d4d4d436;
     box-shadow: 0 0 1em #cccccca6;
 }
@@ -114,7 +115,7 @@ button {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    height: 22vh;
+    height: 100%;
     width: 100%;
     max-width: 1200px;
     margin: auto;
