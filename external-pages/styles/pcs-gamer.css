@@ -1,0 +1,173 @@
+.titulo-pcs-gamer {
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    margin: 20px 0 50px 0;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+h2 span {
+    color: #ffa300;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+main {
+    width: 100%;
+    max-width: 1270px;
+}
+
+aside {
+    width: 280px;
+}
+
+main a:hover {
+    color: #ffa300;
+    opacity: 1;
+}
+
+.geral {
+    display: flex;
+    gap: 50px;
+}
+
+.pesquisa-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+aside .categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.categorias .ativo {
+    color: #ffa300;
+}
+
+aside .pcs-gamer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    gap: 5px;
+    margin-top: -7px;
+}
+
+aside .resolution {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.resolution .span-check {
+    padding-right: 5px;
+}
+
+.valores-faixa {
+    display: flex;
+    gap: 20px;
+}
+
+.faixa-preco p {
+    color: #fff;
+    font-weight: bold;
+}
+
+.filtro {
+    background-color: #ffa300;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.filtro:hover {
+    opacity: 0.8;
+}
+
+.filtro button {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.filtro button:hover {
+    opacity: 1;
+}
+
+/************* CONTEÚDO PCS *************/
+
+.conteudo-pcs {
+    width: 940px;
+}
+
+.conteudo-pcs a:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.pcs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.pc1, .pc2, .pc3, .pc4, .pc5, .pc6{
+    background-color: #595a7135;
+    width: 305px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pc1 img, .pc2 img, .pc3 img, .pc4 img, .pc5 img, .pc6 img{
+    width: 270px;
+}
+
+.pc-pagamento1, .pc-pagamento2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.pc-pagamento {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.pc-pagamento img {
+    width: 16px;
+}
+
+.comprar-pc {
+    width: 80%;
+    padding: 10px;
+    background-color: #8c8b8b;
+    font-size: 14px;
+    border-radius: 4px;
+}

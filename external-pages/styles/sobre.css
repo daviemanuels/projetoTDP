@@ -1,6 +1,6 @@
 main {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
     margin-top: 30px;
 }
 
@@ -58,13 +58,13 @@ main {
 }
 
 .titulo-sobre {
-    width: 100%;
+    width: 43%;
+    margin: auto;
 }
 
 .titulo-sobre h1 {
     text-align: right;
     font-size: 40px;
-    margin-right: 270px;
     font-style: italic;
     color: #fff;
 }
