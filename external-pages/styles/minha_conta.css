@@ -59,6 +59,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 68.2vh;
 }
 
 .main_mc{
@@ -67,7 +68,6 @@ main {
     align-items: center;
     justify-content: center;
     width: 500px;
-    height: 520px;
     gap: 9px;
     margin-bottom: 10px;
 }
@@ -201,7 +201,7 @@ main {
 
 footer {
 
-    box-shadow: 0 10px 1.5em #cccccca6;
+    box-shadow: 10px 0 1em #cccccca6;
     /* box-shadow: 0 0 1em #cccccca6; */
     background-color: unset;
 }
