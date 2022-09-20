@@ -19,8 +19,7 @@
 }
 
 .banner {
-    width: 95%;
-    max-width: 1400px;
+    max-width: 92vw;
     margin: auto;
     margin-bottom: 30px;
 }
