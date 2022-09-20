@@ -16,10 +16,12 @@
 
 .banner img {
     width: 100%;
+    
 }
 
 .banner {
-    max-width: 92vw;
+    width: 95%;
+    max-width: 1400px;
     margin: auto;
     margin-bottom: 30px;
 }
