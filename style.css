@@ -437,6 +437,20 @@ main {
     width: 40px;
     margin: 0 auto;
 }
+
+.categorias{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+    position: relative;
+}
+
+.categorias img{
+    width: 270px;
+}
+
 /****************************** FOOTER **************************************/
 
 /*************** LIST-FOOTER ***************/
