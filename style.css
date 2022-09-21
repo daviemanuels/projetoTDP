@@ -319,7 +319,7 @@ main {
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
 }
 
 /*************** SLIDER  ***************/
@@ -523,9 +523,9 @@ main {
 }
 
 .categorias{
-    margin-top: 40px;
     display: flex;
     justify-content: space-around;
+    gap: 30px;
     margin-left: 300px;
     margin-right: 300px;
     position: relative;
