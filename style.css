@@ -315,7 +315,7 @@ label {
 
 main {
     width: 100%;
-    max-width: 1350px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -326,11 +326,95 @@ main {
 
 .slider {
     margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    width: 1150px;
+    height: 550px;
     overflow: hidden;
 }
 
+.slides {
+    width: 200%;
+    height: 550px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 50%;
+    position: relative;
+    transition: all 0.8s;
+}
+
+.slide img {
+    width: 1150px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 1150px;
+    margin-top: -40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 50px;
+}
+
+.manual-btn:hover {
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first{
+    margin: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -50%;
+}
+
+.navigation-auto div {
+    border: 2px solid #ffa300;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 1129px;
+    margin-top: 510px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: -40.5px;
+}
+
+.navigation-auto div:not(:first-child) {
+    margin-right: 4px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn2 {
+    background-color: #ffa300;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn1 {
+    background-color: #ffa300;
+}
 
 /*************** FRAME 1 ***************/
 
