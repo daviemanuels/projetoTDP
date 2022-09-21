@@ -14,16 +14,45 @@
     --color-hover-bg: #ffa300;
 }
 
-.banner img {
-    width: 100%;
-    
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
 }
 
-.banner {
-    width: 95%;
-    max-width: 1400px;
-    margin: auto;
-    margin-bottom: 30px;
+.slide{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: absolute;
+}
+
+.slide img{
+    width: 800px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 /*************** GERAL ***************/
