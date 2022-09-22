@@ -363,6 +363,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    z-index: 0;
 }
 
 .manual-btn {
@@ -403,6 +404,7 @@ main {
     margin-top: 510px;
     display: flex;
     justify-content: center;
+    z-index: 0;
 }
 
 .navigation-auto div:not(:last-child) {
