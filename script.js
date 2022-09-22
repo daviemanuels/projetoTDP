@@ -62,3 +62,9 @@ function nextImage() {
     }
     document.getElementById("radio"+count).checked = true;
 }
+
+$(".option").click(function () {
+    $(".option").removeClass("active");
+    $(this).addClass("active");
+  });
+  
