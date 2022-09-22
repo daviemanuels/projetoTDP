@@ -433,11 +433,6 @@ main {
     max-width: 1200px;
 }
 
-.frame2 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .gallery-wrapper{
     overflow-x: auto;
 }
@@ -445,7 +440,14 @@ main {
 .gallery{
     display: flex;
     flex-flow: row nowrap;
-    gap: 20px
+    gap: 20px;
+}
+
+.gallery2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 .produto1{
@@ -472,7 +474,7 @@ main {
     background-color: #d4d4d41a;
     padding: 10px;
     border-radius: 2px;
-    width: 30%;
+    width: 23%;
 }
 
 .produto2 a{
@@ -692,6 +694,8 @@ footer {
     font-weight: 50;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/***************** Section Jogos ******************/
 
 section1 #user-button {
   z-index: 1000;
