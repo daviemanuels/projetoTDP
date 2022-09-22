@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url(https://pro.fontawesome.com/releases/v5.11.2/css/all.css);
 
 *{
     margin: 0;
@@ -12,6 +13,10 @@
     --color-bg: #ffa300;
     --color-primary: #fff;
     --color-hover-bg: #ffa300;
+    --user-button-circle: rgba(0, 0, 0, 0.025);
+    --user-button-cardborder: rgba(255, 255, 255, 0.25);
+    --user-button-text: #323133;
+    --user-button-shadow: rgba(0, 0, 0, 0.1);
 }
 
 /*************** GERAL ***************/
@@ -418,7 +423,7 @@ main {
 
 /*************** FRAME 1 ***************/
 
-.frame1{
+.frame1, .frame2{
     display: flex;
     background-color: #d4d4d436 ;
     justify-content: space-around;
@@ -428,14 +433,9 @@ main {
     max-width: 1200px;
 }
 
-.frame2{
+.frame2 {
     display: flex;
-    background-color: #d4d4d436 ;
-    justify-content: space-around;
-    padding: 10px 0;
-    margin: 0 auto;
-    box-shadow: 0 0 1em #cccccca6;
-    max-width: 1200px;
+    flex-wrap: wrap;
 }
 
 .gallery-wrapper{
@@ -691,14 +691,6 @@ footer {
     font-size: 13px;
     font-weight: 50;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-@import url(https://pro.fontawesome.com/releases/v5.11.2/css/all.css);
-:root {
-  --user-button-circle: rgba(0, 0, 0, 0.025);
-  --user-button-cardborder: rgba(255, 255, 255, 0.25);
-  --user-button-text: #323133;
-  --user-button-shadow: rgba(0, 0, 0, 0.1);
 }
 
 section1 #user-button {
