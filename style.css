@@ -316,6 +316,11 @@ input[type="checkbox"]:checked ~ nav {
     z-index: 1;
 }
 
+.manual-navigation label {
+  position: absolute;
+  z-index: 1;
+}
+
 /*************** MAIN ***************/
 
 main {
