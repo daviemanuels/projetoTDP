@@ -205,3 +205,42 @@ footer {
     /* box-shadow: 0 0 1em #cccccca6; */
     background-color: unset;
 }
+
+/***************** FORMULÁRIO DE CADASTRO *******************/
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: aqua;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+
+fieldset {
+    border: 3px solid #ffa300;
+}
+
+legend {
+    border: 1px solid #ffa300;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffa300;
+    border-radius: 5px;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffa300;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+}
