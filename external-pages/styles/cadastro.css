@@ -1,0 +1,183 @@
+body {
+    background-image: url('../../imagens/fundo.jpg');
+    background-size: cover;
+}
+
+/*****************header_mc*********************/
+
+.header_mc{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin: auto;
+    padding: 10px;
+}
+
+.logo_mc{
+    height: 115px;
+    width: 95px;
+    margin-left: 20px;
+}
+
+.contatos_mc{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contatos_mc a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.contatos_mc .tel{
+    width: 16px;
+    height: 16px;
+}
+
+.contatos_mc .mail{
+    width: 20px;
+    height: 20px;
+}
+
+.contatos_mc .contatos_mc_p{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/***************** FORMULÁRIO DE CADASTRO *******************/
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    color: #fff;
+}
+
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    height: 680px;
+    font-size: 14px;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    width: 40%;
+    height: 700px;
+}
+
+fieldset {
+    border: 3px solid #ffa300;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 15px;
+}
+
+legend {
+    border: 1px solid #ffa300;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffa300;
+    border-radius: 5px;
+}
+
+.inputBox, .local {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ffa300;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.inputLocal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+    color: #fff;
+    
+}
+
+.sexo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: #ffa300;
+}
+
+#submit {
+    background: linear-gradient(to right, #e6b35b, #ffa300);
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#submit:hover {
+    opacity: 0.8;
+}
+
+#data_nasc {
+    margin-left: 58px;
+    padding: 10px;
+    background-color: #ffa300;
+    width: 50%;
+    border-radius: 5px;
+}
+
+/***************** FOOTER *******************/
+
+.copyright_mc{
+    padding: 30px 0;
+    opacity: 1;
+
+}
+
+.copyright_mc p{
+    color: #acacac;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 50;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+
+    box-shadow: 10px 0 1em #cccccca6;
+    /* box-shadow: 0 0 1em #cccccca6; */
+    background-color: unset;
+}

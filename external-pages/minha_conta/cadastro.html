@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+    <link rel="shortcut icon" href="../../imagens/favicon.png" type="image/x-icon">
+    <title>ChipShop</title>
+    </head>
+<body>
+    <header>
+            <div class="header_mc">
+                <a href="../../index.html">
+                    <img class="logo_mc" src="../../imagens/logo.png" alt="">
+                </a>
+                <div class="contatos_mc">
+                    <a href="#">
+                        <img class="tel" src="../../imagens/imagens_mc/tel_mc.png" alt="">
+                        <p>83 3334-1661</p>
+                    </a>
+                    <a href="#">
+                        <img class="mail" src="../../imagens/imagens_mc/mail_mc.png" alt="">
+                        <p>contato@chipshop.com.br</p>
+                    </a href="#">
+                    <p class="contatos_mc_p" >De seg a sex 8:00-18:00 / sab 08:00-12:00</p>
+                </div>
+            </div>
+    </header>
+    <main>
+        <section class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>Cadastro de Clientes</b></legend>
+                    <br>
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome Completo</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelInput">Email</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="tel" class="labelInput">Telefone</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="senha" id="senha" class="inputUser" required>
+                        <label for="senha" class="labelInput">Senha</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="password" name="repitaSenha" id="repitaSenha" class="inputUser" required>
+                        <label for="repitaSenha" class="labelInput">Repita a Senha</label>
+                    </div>
+                    <div class="sexo">
+                        <p>Gênero:</p>
+                        <div class="sexo-m">
+                            <input type="radio" name="genero" id="masculino" value="masculino" required>
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div class="sexo-f">
+                            <input type="radio" name="genero" id="feminino" value="feminino" required>
+                            <label for="feminino">Feminino</label>
+                        </div>
+                        <div class="sexo-f">
+                            <input type="radio" name="outro" id="outro" value="outro" required>
+                            <label for="outro">Outro</label>
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <label for="data_nasc"><b>Data de Nascimento:</b></label>
+                        <input type="date" name="data_nasc" id="data_nasc" required>
+                    </div>
+                    <div class="inputLocal">
+                        <div class="local">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelInput">Cidade:</label>
+                        </div>
+                        <div class="local">
+                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <label for="estado" class="labelInput">Estado:</label>
+                        </div>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                        <label for="endereco" class="labelInput">Endereço:</label>
+                    </div>
+                    <input type="submit" value="Enviar" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright_mc">
+            <p>© Copyright 2002-2022 Protect My Work Limited. All Rights Reserved.</p>
+            <p>R. Nossa Sra. de Lourdes, 193 - Jardim Tavares, Campina Grande - PB, Brasil</p>
+            <p>Email: support@chipshop.com.br</p>
+        </div>
+    </footer>
+</body>
+</html>
