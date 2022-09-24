@@ -561,7 +561,7 @@ main {
     margin: 0 auto;
 }
 
-.categorias{
+.categorias-index{
     display: flex;
     justify-content: space-around;
     gap: 30px;
@@ -570,7 +570,7 @@ main {
     position: relative;
 }
 
-.categorias img{
+.categorias-index img{
     width: 270px;
 }
 
@@ -940,7 +940,6 @@ section1.dark {
 }
 @media (prefers-color-scheme: dark) {
   section1:not(.light) {
-    background: #212123;
     color: white;
   }
 }
