@@ -1,6 +1,10 @@
 const menu = document.querySelector('#menu-scroll');
 const controls = document.querySelectorAll('.control');
 const produto1 = document.querySelectorAll('.produto1');
+const form = document.getElementById('form')
+const campos = document.querySelectorAll('.required')
+const spans = document.querySelectorAll('.span-required')
+const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
 // Menu scroll
 
@@ -69,4 +73,36 @@ $(".option").click(function () {
     $(".option").removeClass("active");
     $(this).addClass("active");
   });
+
+// Validação do formulário
+
+function nameValidate() {
+    if(campos[0].value.length < 4) {
+        setError(0);
+    } else {
+        removeError(0);
+    }
+}
+
+function emailValidate() {
+    if(!emailRegex.test(campos[1].value)) {
+        setError(1);
+    } else {
+        removeError(1);
+    }
+}
+
+function setError(index) {
+    campos[index].style.border = '2px solid #e63636';
+    campos[index].style.padding = '7px'
+    campos[index].style.borderRadius = '7px'
+    spans[index].style.display = 'block'
+}
+
+function removeError(index) {
+    campos[index].style.border = '';
+    campos[index].style.padding = '0'
+    campos[index].style.borderRadius = '0'
+    spans[index].style.display = 'none'
+}
   
