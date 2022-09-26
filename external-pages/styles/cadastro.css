@@ -69,7 +69,6 @@ input {
 form {
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-    height: 680px;
     font-size: 14px;
 }
 
@@ -78,16 +77,14 @@ form {
     padding: 20px;
     border-radius: 15px;
     width: 40%;
-    height: 700px;
 }
 
 fieldset {
     border: 3px solid #ffa300;
-    height: 650px;
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding: 0 15px;
+    padding: 0 15px 15px 15px;
 }
 
 legend {
@@ -112,9 +109,10 @@ legend {
     letter-spacing: 2px;
 }
 
-.inputLocal {
+.inputLocal, .inputDate {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .labelInput {
@@ -152,11 +150,18 @@ legend {
 }
 
 #data_nasc {
-    margin-left: 58px;
+    margin-left: 38px;
     padding: 10px;
     background-color: #ffa300;
     width: 50%;
     border-radius: 5px;
+}
+
+.span-required {
+    display: none;
+    color: #e63636;
+    margin: 4px 0 0 4px;
+    font-size: 12px;
 }
 
 /***************** FOOTER *******************/
