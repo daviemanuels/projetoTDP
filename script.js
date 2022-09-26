@@ -79,6 +79,8 @@ $(".option").click(function () {
 
 // Validação do formulário
 
+const dados = []
+
 function setError(index) {
     campos[index].style.border = '2px solid #e63636';
     campos[index].style.padding = '7px'
